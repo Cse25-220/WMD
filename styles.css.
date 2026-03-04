@@ -13,9 +13,9 @@ body {
     line-height: 1.6;
 header { 
 
-    background-color: #4CAF50; 
+    background-color: #add8e6; 
 
-    color: white; 
+    color: light blue; 
 
     padding: 20px; 
 
