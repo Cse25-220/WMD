@@ -98,7 +98,7 @@ p {
 
 a { 
 
-    color: #4CAF50; 
+    color: #add8e6 ; 
 
     text-decoration: none; 
 
@@ -113,7 +113,7 @@ a:hover {
 } 
 img { 
 
-    border: 5px solid #4CAF50; 
+    border: 5px solid #add8e6; 
 
     border-radius: 10px; 
 
