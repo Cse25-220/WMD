@@ -18,6 +18,10 @@ header h1 {
     margin: 0; 
 }
 
+.navbar{
+background-color:#3e77a3 !important;
+}
+
 nav a { 
     color: white; 
     text-decoration: none; 
