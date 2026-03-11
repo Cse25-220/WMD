@@ -1,67 +1,59 @@
-/* Page styling */
-body{
-font-family: Arial, sans-serif;
-color:#333;
-background-color:#f9f9f9;
-margin:0;
-line-height:1.6;
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    line-height: 1.6;
 }
 
-/* Header / Navbar */
-header{
-background-color:#3e77a3;
+header {
+    background-color: #3e77a3;
 }
 
 /* Override Bootstrap navbar color */
-.navbar{
-background-color:#3e77a3 !important;
+.navbar {
+    background-color: #3e77a3 !important;
 }
 
-/* Navbar links */
-.navbar a{
-color:white !important;
+.navbar a {
+    color: white !important;
 }
 
-.navbar a:hover{
-color:#add8e6 !important;
-text-decoration:underline;
+.navbar a:hover {
+    color: #add8e6 !important;
+    text-decoration: underline;
 }
 
-/* Main content */
-main{
-padding:20px;
-max-width:900px;
-margin:auto;
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-/* Images */
-img{
-max-width:100%;
-height:auto;
-border:5px solid #add8e6;
-border-radius:10px;
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #add8e6;
+    border-radius: 10px;
 }
 
-/* Paragraph text */
-p{
-font-size:1.1em;
+p {
+    font-size: 1.1em;
 }
 
-/* Links */
-a{
-color:#3e77a3;
-text-decoration:none;
+a {
+    color: #3e77a3;
+    text-decoration: none;
 }
 
-a:hover{
-text-decoration:underline;
+a:hover {
+    text-decoration: underline;
 }
 
-/* Footer */
-footer{
-background-color:#add8e6;
-color:#333;
-text-align:center;
-padding:15px;
-margin-top:40px;
+footer {
+    background-color: #add8e6;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
