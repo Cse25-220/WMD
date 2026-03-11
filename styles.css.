@@ -1,76 +1,67 @@
-body { 
-    font-family: Arial, sans-serif; 
-    color: #333; 
-    background-color: #f9f9f9; 
-    margin: 0; 
-    padding: 0; 
-    line-height: 1.6;
+/* Page styling */
+body{
+font-family: Arial, sans-serif;
+color:#333;
+background-color:#f9f9f9;
+margin:0;
+line-height:1.6;
 }
 
-header { 
-    background-color: #3e77a3; 
-    color: lightblue; 
-    padding: 20px; 
-    text-align: center; 
+/* Header / Navbar */
+header{
+background-color:#3e77a3;
 }
 
-header h1 { 
-    margin: 0; 
+/* Override Bootstrap navbar color */
+.navbar{
+background-color:#3e77a3 !important;
 }
 
-
-nav a { 
-    color: white; 
-    text-decoration: none; 
-    margin: 0 10px; 
+/* Navbar links */
+.navbar a{
+color:white !important;
 }
 
-nav a:hover { 
-    text-decoration: underline; 
+.navbar a:hover{
+color:#add8e6 !important;
+text-decoration:underline;
 }
 
-main { 
-    padding: 20px; 
-    max-width: 800px; 
-    margin: 0 auto; 
+/* Main content */
+main{
+padding:20px;
+max-width:900px;
+margin:auto;
 }
 
-main img { 
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 20px 0; 
+/* Images */
+img{
+max-width:100%;
+height:auto;
+border:5px solid #add8e6;
+border-radius:10px;
 }
 
-footer { 
-    background-color: #3e77a3; 
-    color: lightblue; 
-    text-align: center; 
-    padding: 10px; 
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
+/* Paragraph text */
+p{
+font-size:1.1em;
 }
 
-p { 
-    font-size: 1.1em; 
+/* Links */
+a{
+color:#3e77a3;
+text-decoration:none;
 }
 
-a { 
-    color: #3e77a3; 
-    text-decoration: none; 
+a:hover{
+text-decoration:underline;
 }
 
-a:hover { 
-    text-decoration: underline; 
-}
-
-img { 
-    border: 5px solid #add8e6; 
-    border-radius: 10px; 
-}
-
-main a[href^="mailto:"] { 
-    color:#3e77a3; 
-    font-weight: bold; 
+/* Footer */
+footer{
+background-color:#add8e6;
+color:#333;
+text-align:center;
+padding:15px;
+margin-top:40px;
 }
